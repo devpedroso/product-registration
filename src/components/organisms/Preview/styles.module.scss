@@ -1,0 +1,119 @@
+.container {
+  padding-bottom: 2rem;
+
+  .preview {
+    padding: 1rem;
+    border: 1px solid var(--neutral-300);
+    background: var(--white) !important;
+
+    .message {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 -1rem;
+      background: var(--background);
+      padding: 3rem;
+      height: 500px;
+      text-align: center;
+
+      span svg {
+        font-size: 2rem;
+        color: var(--neutral-600);
+      }
+    }
+
+    .carroussel {
+      width: 100vw;
+      margin: 0 -24px;
+      background: var(--neutral-400);
+
+      .img {
+        text-align: center;
+        height: 240px;
+        object-fit: contain;
+        margin-bottom: -5px;
+
+        @media (min-width: 768px) {
+          margin-bottom: -0.4rem;
+          height: 480px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        width: auto;
+        margin: 0 -16px;
+      }
+    }
+
+    .thumbContainer {
+      line-height: 0;
+      display: flex;
+
+      .thumb {
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover;
+      }
+    }
+
+    .price {
+      font-size: 2rem !important;
+      font-weight: 500;
+      color: var(--primary-100);
+    }
+
+    .header {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .phone {
+      padding-bottom: 1rem;
+
+      .phoneNumber {
+        text-decoration: underline;
+      }
+    }
+
+    @media (max-width: 768px) {
+      border: none;
+      padding: 1rem 0;
+    }
+  }
+
+  .securityContent {
+    border: 1px solid var(--neutral-300);
+    padding: 2rem;
+    color: var(--neutral-600);
+
+    .carouselSecurityItem {
+      text-align: center;
+      margin: 0;
+      padding-bottom: 2rem;
+      font-size: 1rem;
+    }
+
+    .notice {
+      color: var(--neutral-600);
+    }
+
+    .dotsStyle {
+      margin: -0.5rem 0;
+
+      li {
+        background: var(--primary-90) !important;
+      }
+
+      li[class='slick-active'] button {
+        background-color: var(--primary-100) !important;
+      }
+    }
+
+    .securityDesktop {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      color: var(--neutral-600);
+    }
+  }
+}

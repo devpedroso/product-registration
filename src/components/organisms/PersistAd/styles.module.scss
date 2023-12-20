@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  grid-template-columns: 365px auto;
+  padding-top: 0.2rem;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+
+  .formAd {
+    height: calc(100vh - 86px);
+    overflow: overlay;
+    display: grid;
+    padding: 1rem;
+    gap: 2rem;
+    background-color: var(--white);
+    border-right: 1px solid var(--neutral-300);
+
+    &::-webkit-scrollbar {
+      position: fixed;
+      width: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      position: fixed;
+      background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      position: fixed;
+      background-color: var(--neutral-300);
+    }
+
+    @media (max-width: 768px) {
+      padding-bottom: 80px;
+    }
+  }
+
+  .preview {
+    background: var(--background) !important;
+    padding: 1rem;
+    overflow: overlay;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    &::-webkit-scrollbar {
+      position: fixed;
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      position: fixed;
+      background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      position: fixed;
+      background-color: var(--neutral-400);
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: auto;
+  }
+}

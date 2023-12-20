@@ -1,0 +1,20 @@
+.loading {
+  position: fixed !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 700 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(#ececec, 0.9);
+}
+
+.none {
+  display: none !important;
+}

@@ -1,0 +1,85 @@
+@import './global-ant.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+  font-family: "Darker Grotesque", sans-serif !important;
+  font-weight: 600;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --background: #F5F5F5;
+
+  --primary-90: #292929;
+  --primary-100: #1A1A1A;
+  --primary-110: #000000;
+
+  --secondary-90: #292929;
+  --secondary-100: #1A1A1A;
+  --secondary-110: #000000;
+
+  --success-90: #1BC250;
+  --success-100: #08A93C;
+  --success-110: #008F2D;
+
+  --warning-90: #f4c69e;
+  --warning-100: #F2B988;
+  --warning-110: #ED9E59;
+
+  --info-90: #32FBFB;
+  --info-100: #04D9D9;
+  --info-110: #03B9B9;
+
+  --erro-90: #E1958E;
+  --error-100: #D97971;
+  --error-110: #D26056;
+
+  --neutral-200: #F7F7F7;
+  --neutral-300: #E5E5E5;
+  --neutral-400: #CECFD1;
+  --neutral-500: #788089;
+  --neutral-600: #424A52; 
+
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --breakpoints: [
+    sm: 556px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+  ]
+}
+
+body {
+  background-color: var(--white);
+  overflow: overlay;
+}
+
+body, input, textarea, select {
+  font-family: "Darker Grotesque", sans-serif !important;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+html {
+ font-size: 18px !important;
+}

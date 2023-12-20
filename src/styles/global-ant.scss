@@ -1,0 +1,172 @@
+.ant-drawer-mask {
+  margin-top: 80px !important;
+}
+
+.ant-drawer-content-wrapper {
+  box-shadow: none !important;
+}
+
+.ant-btn {
+  box-shadow: none !important;
+}
+
+.ant-space {
+  width: 100% !important;
+}
+
+.ant-drawer-content-wrapper {
+  width: 100vw !important;
+}
+
+.ant-typography {
+  margin: 0 !important;
+}
+
+.ant-form-item-label {
+  padding: 0 !important;
+
+  label {
+    height: max-content !important;
+    font-weight: 500;
+  }
+}
+
+.ant-input-affix-wrapper,
+.ant-select-selector,
+textarea.ant-input,
+.ant-input-sm {
+  border: 2px solid var(--neutral-300) !important;
+  box-shadow: none !important;
+
+  &:hover,
+  &:active,
+  &:focus-within {
+    border: 2px solid var(--primary-90) !important;
+  }
+}
+
+.ant-input-affix-wrapper-lg {
+  min-width: 300px;
+
+  @media (min-width: 576px) {
+    min-width: 350px;
+  }
+
+  @media (min-width: 768px) {
+    min-width: 400px;
+  }
+}
+
+.ant-input-affix-wrapper,
+.ant-input-sm {
+  border: none;
+  height: 48px;
+}
+
+.ant-form-item-has-feedback,
+.ant-form-item-has-error {
+  margin: 0 !important;
+}
+
+.ant-form-item {
+  width: 100% !important;
+  margin: 0;
+}
+
+.ant-form-item-explain-error {
+  bottom: -20px;
+  position: absolute !important;
+  font-size: 0.875rem;
+}
+
+.ant-form-item-required {
+  &::before {
+    content: '' !important;
+  }
+}
+
+.ant-select-selector {
+  height: 48px !important;
+  display: flex;
+  align-items: center;
+}
+
+.ant-modal {
+  max-width: 100%;
+}
+
+.ant-upload-list-item {
+  border-color: var(--neutral-400) !important;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover {
+  font-size: 2.2rem;
+  color: white !important;
+  margin: 0 2rem;
+  z-index: 999 !important;
+}
+
+.slick-next {
+  margin: -1rem !important;
+  margin-right: 3rem !important;
+}
+
+.slick-prev {
+  margin-top: -1rem !important;
+}
+
+.slick-next:hover,
+.slick-prev:hover {
+  color: white !important;
+}
+
+.ant-select-selection-search {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.ant-message-custom-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ant-collapse-header-text {
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+}
+
+.ant-collapse-header,
+.ant-collapse-content-box {
+  padding: 0.5rem 1rem !important;
+}
+
+.ant-upload-list-item {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.ant-upload-list-item-container {
+  width: max-content !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+.ant-form-item-required {
+  display: inherit !important;
+}
+
+.ant-select-selection-item {
+  font-weight: 600 !important;
+}
+
+.ant-input {
+  font-size: 20px !important;
+}

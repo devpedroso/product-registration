@@ -1,0 +1,22 @@
+.confirmation {
+  width: max-content !important;
+}
+
+.btnOk {
+  line-height: 0;
+
+  background: var(--primary-100) !important;
+
+  &:hover {
+    background: var(--primary-110) !important;
+  }
+}
+
+.btnCancel {
+  line-height: 0;
+
+  &:hover {
+    border-color: var(--primary-100) !important;
+    color: var(--primary-100) !important;
+  }
+}

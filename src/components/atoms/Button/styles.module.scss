@@ -1,0 +1,26 @@
+.default {
+  font-weight: 500;
+  font-size: 100% !important;
+}
+
+.primary {
+  font-weight: 500;
+  font-size: 100% !important;
+}
+
+.link {
+  background: var(--white) !important;
+  opacity: 0.75 !important;
+  line-height: 0 !important;
+
+  padding: 0.5rem;
+
+  &:hover {
+    filter: brightness(90%) !important;
+    color: var(--primary-100) !important;
+  }
+
+  &:not(active) {
+    color: var(--primary-100) !important;
+  }
+}

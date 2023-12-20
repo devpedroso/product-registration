@@ -1,0 +1,14 @@
+.icon {
+  color: var(--error-100);
+  font-size: 1.3rem;
+  cursor: pointer;
+  opacity: 0.8;
+
+  transition: transform 0.15s;
+
+  :hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+  }
+}

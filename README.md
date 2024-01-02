@@ -31,7 +31,7 @@ Pré-requisitos: npm/yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/devpedroso/Portifolio.git
+git clone https://github.com/devpedroso/product-registration.git
 
 # entrar na pasta do projeto front end
 cd product-registration
